@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-vite@latest temp-garden --template react)",
+      "Bash(npx vite build)",
+      "Bash(npx vite:*)",
+      "Bash(start:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx --yes wait-on http://localhost:5173 --timeout 15000)"
+    ]
+  }
+}
